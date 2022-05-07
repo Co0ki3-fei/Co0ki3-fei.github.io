@@ -1,0 +1,285 @@
+.m-nav {
+    background-color: #00C2AF;
+    padding: 10px 0;
+    border-bottom: 1px solid #269B90;
+}
+
+.m-dd {
+    padding: 0;
+}
+
+.m-dd>button {
+    background-color: #00C2AF;
+    color: white;
+}
+.m-dd>ul {
+    background-color: #00C2AF;
+}
+ 
+.m-dd>ul>li>a {
+    color: white;
+}
+
+.m-search>input {
+    background-color: #00A595;
+    border: 0;
+    height: 46px;
+    color: white;
+    padding-left: 0;
+}
+
+.m-search>input::-webkit-input-placeholder {
+    color: #00C2AF;
+}
+
+.m-search>span>button {
+    background-color: #00A595;
+}
+
+i {
+    color: white;
+}
+
+.m-user {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.m-hd>div {
+    margin-bottom: 10px;
+}
+
+.m-hd>div>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.m-hd>div>div>i {
+    color: #00A595;
+}
+
+.m-dvd {
+    background-color: #F1EFED;
+    height: 10px;
+    margin-left: 0;
+    border: 1px solid #E7E2DC;
+    border-width: 1px 0;
+}
+
+.m-img {
+    background-color: #666666;
+}
+
+.m-bd {
+    padding: 5px;
+}
+
+
+
+.m-bd>div {
+    padding: 10px 0 2px 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.m-bd>div>li {
+    margin-bottom: 5px;
+}
+
+
+.m-bd>div>li+li {
+    color: #666666;
+}
+
+.m-bd>div:first-child>div {
+    height: 100px;
+    width: 100px;
+    margin: 5px 0;
+}
+
+.m-bd>div:last-child {
+    border-left: 1px solid #E7E2DC;
+    padding-left: 0;
+    height: 170px;
+}
+
+.m-bd>div:last-child>div:first-child {
+    border-bottom: 1px solid #E7E2DC;
+}
+
+.m-bd>div:last-child>div:first-child>div>div{
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.m-bd>div:last-child>div>div>li {
+    margin-bottom: 5px;
+}
+
+.m-bd>div:last-child>div:last-child>div>div {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.m-bd>div:last-child>div:last-child>div:last-child {
+    border-left: 1px solid #E7E2DC;
+}
+
+.m-bd>div:last-child>div:last-child>div:last-child>li>span {
+    background-color: #666666;
+    border-radius: 3px;
+    color: white;
+    padding: 0 3px;
+}
+
+div>span {
+    color: #00A595;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.m-ft {
+    padding: 5px 0;
+}
+
+.m-ft>div>div>div {
+    width: 70px;
+    height: 70px;
+}
+
+.m-ft>div:last-child {
+    border-left: 1px solid #E7E2DC;
+}
+
+.m-ft>div>div:first-child {
+    padding-top: 15px;
+}
+
+.m-li {
+    padding-left: 10px;
+}
+
+.m-li>div {
+    border-bottom: 1px solid #E7E2DC;
+}
+
+.m-li-tl {
+    font-size: 17px;
+    padding: 8px 0;
+}
+
+.m-item {
+    padding: 0;
+}
+
+.m-item>.col-xs-9>span, .m-item>.col-xs-9>div, .m-item>.col-xs-9>section{
+    padding-left: 10px;
+}
+
+
+
+.m-item>div {
+    padding: 10px 0;
+}
+
+.m-item>div:first-child>div {
+    width: 100px;
+    height: 100px; 
+}
+
+.m-item>div:last-child>div {
+    margin-top: 35px;
+    display: flex;
+    text-align: right;
+}
+
+.m-item>div:last-child>div>em {
+    flex-grow: 2;
+}
+
+.m-item>div:last-child>div>div:last-child {
+    margin-right: 10px;
+}
+
+.m-item>div:last-child>div>div:first-child>span:first-child {
+    font-size: 20px;
+    color: #269B90;
+}
+
+.m-item>div:last-child>div>div:first-child>span:last-child {
+    font-size: 14px;
+    color: #269B90;
+}
+
+.m-item>div:last-child>div>div:first-child {
+    padding-right: 10px;
+}
+
+.m-item>div:last-child>div>div:nth-child(2)>span {
+    border: 1px solid #FF9A00;
+    border-radius: 3px;
+    color: #FF9A00;
+    font-size: 12px;
+    padding: 2px 2px;
+}
+
+.m-item>div:last-child>div>div:nth-child(3)>span,
+.m-item>div:last-child>div>div:last-child>span {
+    line-height: 28px;
+}
+
+.m-tag {
+    position: absolute;
+    top: 21px;
+    left: -19px;
+    width: 80px;
+    height: 0;
+    border-top: 20px solid #06c1ae;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: rotate(135deg);
+}
+
+.m-tag>span {
+    position: absolute;
+    top: -20px;
+    color: #fff;
+    transform: rotate(180deg);
+    font-size: 12px;
+}
+
+
+.m-mail {
+    height: 50px;
+    background-color: #8FC6EA;
+    color: #06c1ae;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.u-aqua, .u-aqua:before{
+    color: #ff9ac9;
+}
+
+.u-mea, .u-mea:before{
+    color: #ffcc7b;
+}
+
+.u-grey, .u-grey:before{
+    color: #b5a9a4;
+}
+
+.col-xs-6>section>span{
+    border-radius: 3px;
+    padding: 0 2px;
+    background-color: #444444;
+    color: white;
+}

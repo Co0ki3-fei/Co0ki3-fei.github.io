@@ -1,0 +1,89 @@
+body{
+
+}
+
+
+
+body>.f-main>.f-bd{
+    width: 460px;
+    height: 190px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+body>.f-main>.f-bd>.m-tb1{
+    width: 460px;
+    height: 190px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 32px;
+    left: 8px;
+}
+body>.f-main>.f-bd>.m-tb2{
+    width: 460px;
+    position: absolute;
+    top: 32px;
+    left: 8px;
+}
+body>.f-main>.f-bd>.m-tb3{
+    position: absolute;
+    top: 32px;
+    left: 8px;
+}
+
+body>.f-main>.f-bd>.m-tb1>.m-row{
+    width: 460px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body>.f-main>.f-bd>.m-tb3>.m-text{
+    font-size: 50px;
+}
+
+body>.f-main>.f-bd>.m-tb2>.u-add{
+    background: green;
+    width: 80px;
+    color: white;
+    float: right;
+    border: 1px solid black;
+    margin-right: 30px;
+    border-radius: 2px;
+}
+
+body>.f-main>.f-bd>.m-tb2>.m-list{
+    list-style-type: decimal;
+}
+
+body>.f-main>.f-bd>.m-tb2>.m-list>li>button{
+    background: white;
+    height: 24px;
+    border: 1px solid black;
+    margin-right: -6px;
+    margin-left: -6px;
+}
+
+body>.f-main>.f-bd>.m-tb2>.m-list>li>input{
+    border: 1px solid black;
+    background: white;
+    font-size: 12px;
+    width: 280px;
+    height: 20px;
+}
+
+.m-img_plus{
+    float: left;
+    background-size: cover;
+    position: absolute;
+    height: 460px;
+    width: 460px;
+    display: block;
+}
+

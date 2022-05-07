@@ -1,0 +1,75 @@
+.g-index{
+    width: 1210px;
+    height: 770px;
+    background-color: #eeeeee;
+}
+.g-bd{
+    width: 1210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.m-goods_block{
+    margin-top: 10px;
+}
+.m-20pxH_Line{
+    display: flex;
+    font-size: 15px;
+    height: 20px;
+    border: 0;
+    width: 370px;
+    background-color: white;
+}
+.m-30pxH_Line{
+    height: 30px;
+    border: 0;
+    width: 370px;
+    background-color: white;
+}
+.m-shop_message{
+    height: 109px;
+    border: 0;
+    background-color: white;
+}
+.m-shop_img{
+    border: 0;
+    height: 259px;
+}
+
+.u-message{
+    color: #f72862;
+}
+.u-acPrice{
+    color: #f72862;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.u-acPrice:before{
+    font-size: 12px;
+    content: "￥";
+}
+.u-odPrice{
+    font-size: 12px;
+    color: black;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+.u-odPrice:before{
+    font-size: 12px;
+    color: black;
+    font-weight: normal;
+    text-decoration: line-through;
+    content: "￥";
+}
+.u-store{
+    font-size: 12px;
+    vertical-align: bottom;
+
+}
+
+.z-gray_font{
+    color: gray;
+}

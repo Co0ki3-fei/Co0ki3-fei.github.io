@@ -1,0 +1,53 @@
+.cm-80px_Item{
+    width: 76px;
+    height: 76px;
+    border: 2px solid black;
+}
+
+.cm-50px_Item{
+    width: 46px;
+    height: 46px;
+    border: 2px solid black;
+}
+
+.cm-20pxH_Line{
+    height: 18px;
+    border: 1px solid black;
+    text-indent: 12px;
+    font-size: 12px;
+    width: 366px;
+    background-color: white;
+}
+
+.cm-30pxH_Line{
+    height: 28px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-indent: 12px;
+    width: 366px;
+    background-color: white;
+}
+
+.cm-shop_img{
+    height: 258px;
+    border-bottom: 1px solid black;
+    background-color: #ffffeb;
+}
+
+.cm-shop_message{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 108px;
+    border-top: 1px solid black;
+    background-color: #ffe6f4;
+}
+
+.cm-goods_block{
+    width: 388px;
+    height: 368px;
+    border: 1px solid #aaaaaa;
+}
